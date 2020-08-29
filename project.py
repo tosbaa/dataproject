@@ -57,8 +57,8 @@ def plot_clusters(data, algorithm, args, kwds):
 ##
 
 ##HDBSCAN
-#import hdbscan
-#plot_clusters(data, hdbscan.HDBSCAN, (), {'min_cluster_size':4})
+import hdbscan
+plot_clusters(data, hdbscan.HDBSCAN, (), {'min_cluster_size':4})
 ##
 
 plt.show()
